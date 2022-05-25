@@ -1,0 +1,50 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.title {
+    font-size: 50px;
+    background: linear-gradient(to left, #800000 0%, #006600 100%);
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+.choice {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.start-button {
+    height: 40px;
+}
+
+/* Check out `display:none`. What do you think it does?*/
+.treasure {
+    display: none;
+    font-family: 'Coiny', cursive;
+}
+
+.treasure-img {
+    height: 300px;
+}
+
+h1 {
+    font-size: 50px;
+}
