@@ -11,40 +11,51 @@ body {
     padding: 0 20px;
 }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
-
-p {
-    font-size: 30px;
+h3 {
+    color: white;
+    background: linear-gradient(to left, #800000 0%, #006600 100%);
     font-weight: 800;
 }
 
+.button_set {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+.waterFall-button {
+    color: lightblue;
+    background-color: blue;
+}
+
+.tacoStand-button {
+    color: red;
+    background-color: darkred;
+}
+
+.jumping-waterFalls {
+    color: lightblue;
+    background-color: blue;
+}
+
+.eating-tacos {
+    color: red;
+    background-color: darkred;
+}
 
 .choice {
     height: 350px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px;
-    padding: 10px;
-
+    padding: 20px;
 }
 
-.start-button {
-    height: 40px;
+.water-falls {
+    height: 350px;
 }
 
-/* Check out `display:none`. What do you think it does?*/
-.treasure {
-    display: none;
-    font-family: 'Coiny', cursive;
-}
-
-.treasure-img {
-    height: 300px;
-}
-
-h1 {
-    font-size: 50px;
+.taco-stand {
+    height: 350px;
 }
